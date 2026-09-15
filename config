@@ -1,0 +1,23 @@
+# Read `man 5 sway` for a complete reference.
+# theme variables
+include $HOME/.config/sway/config.d/theme.conf
+
+# global variables
+include $HOME/.config/sway/config.d/definitions.conf
+
+# io configs
+include $HOME/.config/sway/config.d/inputs/*
+include $HOME/.config/sway/config.d/outputs/*
+
+# enable modes
+include $HOME/.config/sway/config.d/modes/*
+
+# include additional configs e.g. to autostart applications
+include $HOME/.config/sway/config.d/system/*
+
+# only enable this if every app you use is compatible with wayland
+# xwayland disable
+
+# user variables
+include $HOME/.config/sway/config.d/user.conf
+
